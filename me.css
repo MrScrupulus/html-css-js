@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    font-family: 'Consolas', monospace;
+    margin: 0;
+    padding: 20px;
+    color: darkgreen;
+
+}
+.title{
+    padding-bottom: 50px;
+    color: green;
+    font-size: 5vh;
+    text-align: center;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+h2{
+    /* text-align: center; */
+    color: green;
+    text-shadow: 2px 2px 4px #000000;
+}
+h3{
+    padding-top: 20px;
+    /* text-align: center; */
+    color: green;
+    text-shadow: 2px 2px 4px #000000;
+}
+hr{
+    border : 1px solid green;
+}
+.comp{
+    text-decoration: underline;
+   
+    color: green;
+}
+.list{
+    text-decoration: bold;
+}
+.img{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    padding-right: 10px ;
+}
+/* ul{
+    
+} */
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+button{
+    
+    border-radius: 25px;
+    display: block;
+    background-color: black;
+    border-color: green;
+    
+    
+}
+
+button:hover{
+    background-color: green;
+    color: black;
+    border-color: black;
+}
+a{
+    padding: 2px;
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    background-color: green;
+}
+
+@media (max-width: 601px) {
+    li{
+        display: block;
+    }
+
+}
+form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width : 50%;
+
+
+}

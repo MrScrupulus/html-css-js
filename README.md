@@ -1,2 +1,5 @@
 # html-css-js
-# La dev est faite...
+# La branche dev est faite...
+
+# Révisions des bases.
+

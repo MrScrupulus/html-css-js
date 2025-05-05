@@ -24,6 +24,9 @@ h3{
     color: green;
     text-shadow: 2px 2px 4px #000000;
 }
+/* .presentation{
+    display: inline-block;
+} */
 hr{
     border : 1px solid green;
 }
@@ -36,28 +39,34 @@ hr{
     text-decoration: bold;
 }
 .img{
-    
+    /* box-shadow: green 0px 0px 10px 5px; */
     margin-left: auto;
     margin-right: auto;
     width: 50px;
-    padding-right: 10px ;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 /* ul{
     
 } */
 li{
+    font-size: small;
     display: inline-block;
     list-style-type: none;
     padding: 10px;
+    /* border: green solid 1px;
+    border-radius: 25px; */
 }
 
 
 .photo{
+    
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: green 0px 0px 10px 5px;
    
 }
 
